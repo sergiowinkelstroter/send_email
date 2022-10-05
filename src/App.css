@@ -1,0 +1,45 @@
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: auto;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.container h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container input,
+.container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.container form button {
+  background-color: aqua;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.container form button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
